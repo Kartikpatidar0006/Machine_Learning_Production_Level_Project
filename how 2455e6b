@@ -1,0 +1,38 @@
+[33mcommit 2455e6bd98233267febaabeb543cc43ecf35ca8e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kartikpatidar0006 <kartikpatidar087@gmail.com>
+Date:   Thu Sep 17 01:22:57 2026 +0530
+
+    some work
+
+ .dockerignore                             |     0
+ Dockerfile                                |     0
+ app.py                                    |     0
+ config/model.yaml                         |     0
+ config/schema.yaml                        |     0
+ demo.py                                   |     0
+ notebook/EasyVisa.csv                     | 25481 [32m+++++++++++[m
+ notebook/mongodb_demo.ipynb               | 63400 [32m++++++++++++++++++++++++++++[m
+ requirements.txt                          |    25 [32m+[m
+ setup.py                                  |     9 [32m+[m
+ template.py                               |    49 [32m+[m
+ us_visa/__init__.py                       |     0
+ us_visa/components/__init__.py            |     0
+ us_visa/components/data_ingestion.py      |     0
+ us_visa/components/data_transformation.py |     0
+ us_visa/components/data_validation.py     |     0
+ us_visa/components/model_evaluation.py    |     0
+ us_visa/components/model_pusher.py        |     0
+ us_visa/components/model_trainer.py       |     0
+ us_visa/configuration/__init__.py         |     0
+ us_visa/constants/__init__.py             |     0
+ us_visa/entity/__init__.py                |     0
+ us_visa/entity/artifact_entity.py         |     0
+ us_visa/entity/config_entity.py           |     0
+ us_visa/exception/__init__.py             |     0
+ us_visa/logger/__init__.py                |     0
+ us_visa/pipline/__init__.py               |     0
+ us_visa/pipline/prediction_pipeline.py    |     0
+ us_visa/pipline/training_pipeline.py      |     0
+ us_visa/utils/__init__.py                 |     0
+ us_visa/utils/main_utils.py               |     0
+ 31 files changed, 88964 insertions(+)
